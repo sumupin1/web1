@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>WEB1 - html </title>
+    <title>Pokemon Go - wishlist </title>
     <meta charset="utf-8">
 </head>
-
+<style>
+    body{
+      margin:0;
+    }
+    a {
+      color:rgb(0, 25, 134);
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:40px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:160px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      margin-bottom: 100px;
+    }
+    #grid ol{
+      padding-left:30px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+  </style>
+</head>
 <body>
-    <h1><a href="index.html">WEB</a></h1>
+  <h1><a href="index.html">POKEMON GO</a></h1>
+  <div id="grid">
     <ol>
-       <li><a href=".html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
+      <li><a href="1.html">포켓몬 트레이너</a></li>
+      <li><a href="2.html">전설의 포켓몬을 잡자</a></li>
+      <li><a href="3.html">포켓몬은 실존한다</a></li>
     </ol>
-    <BR></BR>
-    <h2>CSS</h2>
-    <p>
-        오늘 코딩 조진다
-    </p>
-   <a href="https://www.naver.com/" target=_blank>Markup Language (HTML)</a>  is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
-    <img src="picture.jpeg" width="50%">
-</body>
-</html>
+    <div id="article">
+        <h2>포켓몬 위시리스트</h2>
+        <h4>1.가디안</h4>
+        <img src="../천재개발자/이미지소스/가디안.jpeg" width="80%">
+        <h4>2.볼트로스</h4>
+        <img src="../천재개발자/이미지소스/볼트로스.jpeg" width="80%">
+        <h4>3.이브이 진화</h4>
+        <img src="../천재개발자/이미지소스/이브이진화.jpeg" width="80%">
+        <h4>4.메가리자몽</h4>
+        <img src="../천재개발자/이미지소스/메가리자몽.jpeg" width="80%">
+        <h4>5.탱탱겔</h4>
+        <img src="../천재개발자/이미지소스/탱탱겔.jpeg" width="80%">
+        <h4>6.디아루가</h4>
+        <img src="../천재개발자/이미지소스/디아루가.png" width="80%">
+        <h4>5.로즈레이드</h4>
+        <img src="../천재개발자/이미지소스/로즈레이드.png" width="80%">
+    
+  </div>
+  </body>
+  </html>
